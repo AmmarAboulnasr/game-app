@@ -1,0 +1,22 @@
+{
+  "name": "game-app",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Ammar Aboulnasr <ammar@ammaronline.net>",
+    "Alicia Poindexter <alcampbel@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ejs": "~1.0.0"
+  }
+}
