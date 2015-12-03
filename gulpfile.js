@@ -22,7 +22,7 @@ gulp.task('watch', function() {
 
 gulp.task('build', ['clean', 'bower'], function() {
   gulp.src(paths.jssrc)
-  .pipe(concat('bundle.js'))
+  .pipe(concat('bundle.min.js'))
   .pipe(uglify())
   .pipe(addsrc(paths.htmlsrc))
   .pipe(gulp.dest(paths.filedest));

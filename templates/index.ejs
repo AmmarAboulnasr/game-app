@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Game App</title>
+  <script src="vendor/angular/angular.min.js"></script>
 </head>
-<body>
+<body ng-app='gameApp'>
   <h1>Game App</h1>
   <h3>Let's play!!!</h3>
+  <ui-view>
+  <script src="vendor/angular-ui-router/angular-ui-router.min.js"></script>
+  <script src="bundle.min.js"></script>
 </body>
 </html>
